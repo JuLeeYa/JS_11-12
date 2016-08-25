@@ -1,0 +1,76 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.jcarousel{
+	width: 1160px;
+	height: 405px;
+	margin-left: 100px;
+}
+.carousel-list {    
+	list-style: none;
+	width: 10000px;
+	position: relative;
+	
+
+}
+.carousel-hider {
+	width: 992px;
+	float: left;
+	overflow: hidden;
+	margin: 50px 20px;
+}
+
+.carousel-element {
+	display: block;
+	margin-right: 25px;
+	float: left;
+}
+
+.carousel-element img {
+	max-width: 300px;
+	padding: 5px;
+	border: 2px solid #2e2e2e;
+	background-color: #bab5b5;
+}
+.carousel-element p{
+	max-width: 300px;
+	padding: 5px;
+	font-family: Arial, Tahoma, sans-serif;
+	text-indent: 30px;
+
+}
+.left-arrow,
+.right-arrow{
+	width: 64px;
+	height: 64px;
+	float: left;
+	margin-top: 100px;
+}
+.left-arrow{
+
+	background: url(../img/left-arrow.png);
+}
+.right-arrow{
+	background: url(../img/right-arrow.png);
+}
+.left-arrow:hover{
+	background: url(../img/left-arrow_hover.png);
+}
+.right-arrow:hover{
+	background: url(../img/right-arrow_hover.png);
+}
+
+.page{
+	padding: 0 50px 50px 50px;
+	text-align: center;
+	font-family: Arial, Tahoma, sans-serif;
+}
+.page h1,
+.page h3{
+	margin: 20px;
+}
+.page p{
+	text-align: left;
+	text-indent: 20px;
+}
